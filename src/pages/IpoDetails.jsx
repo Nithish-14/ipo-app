@@ -7,6 +7,7 @@ const IpoDetails = () => {
   const navigate = useNavigate();
   const ipo = ipoData.find((i) => i.id === id);
 
+  console.log("");
   if (!ipo) return null;
 
   return (
